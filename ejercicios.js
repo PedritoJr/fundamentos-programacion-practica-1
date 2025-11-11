@@ -38,7 +38,7 @@ function operacionesBasicas(a, b) {
   
   return { suma, resta, multiplicacion, division };
 }
-
+// hola muierda
 /**
  * Ejercicio 1.3: Ãrea de un rectÃ¡ngulo (2 puntos)
  * @param {number} base - Base del rectÃ¡ngulo
