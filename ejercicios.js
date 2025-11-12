@@ -308,7 +308,7 @@ function invertirArray(arr) {
 
 /**
  * Ejercicio 5.1: Crear una matriz (6 puntos)
- * Crea una matriz de filas x columnas llena de ceros
+  * Crea una matriz de filas x columnas llena de ceros
  * @param {number} filas - NÃºmero de filas
  * @param {number} columnas - NÃºmero de columnas
  * @returns {Array<Array<number>>} - Matriz de ceros
@@ -317,6 +317,15 @@ function invertirArray(arr) {
 function crearMatriz(filas, columnas) {
   // TODO: Crea una matriz de filas x columnas llena de ceros
   const matriz = [];
+  
+  for(i = 0; i < filas; i++){
+    filardas = []    
+    for(j = 0; j < columnas; j++) {
+      filardas.push(0)
+    }
+    matriz.push(filardas)
+  }
+
   return matriz;
 }
 
