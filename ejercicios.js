@@ -101,7 +101,7 @@ function evaluarNota(nota) {
 
 /**
  * Ejercicio 2.3: El mayor de tres nÃºmeros (4 puntos)
- * @param {number} a - Primer nÃºmero
+  * @param {number} a - Primer nÃºmero
  * @param {number} b - Segundo nÃºmero
  * @param {number} c - Tercer nÃºmero
  * @returns {number} - El nÃºmero mayor
@@ -116,6 +116,7 @@ function mayorDeTres(a, b, c) {
     return c
   }
 }
+
 
 /**
  * Ejercicio 2.4: ClasificaciÃ³n de edad (4 puntos)
