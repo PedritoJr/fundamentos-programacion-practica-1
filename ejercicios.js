@@ -192,13 +192,19 @@ function tablaMultiplicar(numero) {
 
 /**
  * Ejercicio 3.4: NÃºmeros pares hasta n (6 puntos)
- * @param {number} n - NÃºmero lÃ­mite
+  * @param {number} n - NÃºmero lÃ­mite
  * @returns {Array} - Array con todos los nÃºmeros pares desde 2 hasta n
  * Ejemplo: numerosPares(10) debe retornar [2, 4, 6, 8, 10]
  */
 function numerosPares(n) {
   // TODO: Crea un array con todos los nÃºmeros pares hasta n
   const pares = [];
+  for(i = 2; i <= n; i++) {
+    if (i % 2 === 0) {
+      pares.push(i);
+    }
+    
+  }
   return pares;
 }
 
