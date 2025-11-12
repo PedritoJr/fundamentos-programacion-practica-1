@@ -338,8 +338,20 @@ function crearMatriz(filas, columnas) {
 function sumaMatriz(matriz) {
   // TODO: Suma todos los elementos de la matriz
   // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
-  return 0;
+  let suma = 0;
+  
+  // Recorre cada fila
+  for(let i = 0; i < matriz.length; i++) {
+    
+    // Recorre cada elemento de la fila
+    for(let j = 0; j < matriz[i].length; j++) {
+      suma = suma + matriz[i][j];  // Suma el elemento
+    }
+  }
+  
+  return suma;
 }
+
 
 /**
  * Ejercicio 5.3: Obtener una fila (5 puntos)
