@@ -229,13 +229,21 @@ function sumaArray(numeros) {
 
 /**
  * Ejercicio 4.2: Promedio de un array (5 puntos)
- * @param {Array<number>} numeros - Array de nÃºmeros
+* @param {Array<number>} numeros - Array de nÃºmeros
  * @returns {number} - Promedio de los nÃºmeros
  */
 function promedioArray(numeros) {
   // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  return 0;
+  promedio = 0
+  suma = 0
+  for(i = 0; i < numeros.length; i++){
+    suma = suma + numeros[i]
+  }
+  promedio = suma / numeros.length
+
+  return promedio;
 }
+
 
 /**
  * Ejercicio 4.3: Encontrar el mÃ¡ximo (6 puntos)
