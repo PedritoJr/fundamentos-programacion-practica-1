@@ -396,6 +396,19 @@ const columna = [];
 function transponer(matriz) {
   // TODO: Crea la matriz transpuesta
   const transpuesta = [];
+
+  // Recorremos las columnas de la matriz original
+  for (let i = 0; i < matriz[0].length; i++) {
+    const nuevaFila = [];
+
+    // En cada columna, recorremos todas las filas
+    for (let j = 0; j < matriz.length; j++) {
+      nuevaFila.push(matriz[j][i]);
+    }
+
+    transpuesta.push(nuevaFila);
+  }
+
   return transpuesta;
 }
 
