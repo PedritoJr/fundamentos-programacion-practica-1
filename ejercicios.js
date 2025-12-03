@@ -1,4 +1,4 @@
-// FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
+// FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTIC
 // Nombre del estudiante: _________________
 // Fecha: _________________
 
